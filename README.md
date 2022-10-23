@@ -1,1 +1,1 @@
-"# kepler-lang" 
+Presenting the Kepler programming language, built on Python.
