@@ -15,3 +15,11 @@ class BinaryOperationNode:
 
     def __repr__(self):
         return f'({self.leftNode}, {self.operatorToken}, {self.rightNode})'
+
+class UnaryOperationNode:
+    def __init__(self, operatorToken, node):
+        self.operatorToken = operatorToken
+        self.node = node
+
+    def __repr__(self):
+        return f'({self.operatorToken}, {self.node})'
