@@ -11,5 +11,6 @@ class Parser:
         if self.tokenIndex < len(self.tokens):
             self.currentToken = self.tokens[self.tokenIndex]
 
+    # return abstract syntax tree
     def parse(self):
         return self.tokens
